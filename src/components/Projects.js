@@ -9,25 +9,25 @@ const Projects = (props) => {
       <h1>Projects</h1>
       <Thumbnail
         link="/touryst"
-        image="/image/tourystImg"
+        image="/images/tourystImg.png"
         title="Tour-Info Project"
         role="Back-End Developer"
       />
       <Thumbnail
         link="/todo-app"
-        image="/image/todoImg"
+        image="/images/todoImg.png"
         title="Todo Application"
         role="Software Engineer"
       />
       <Thumbnail
         link="/rickstagram"
-        image="/image/rickstagramImg"
+        image="/images/rickstagramImg.png"
         title="Rickstagram"
         role="Software Engineer"
       />
       <Thumbnail
         link="/hidden-gems"
-        image="/image/hiddenGemsImg"
+        image="/images/hiddenGemsImg.png"
         title="Hidden Gems"
         role="Software Engineer"
       />
