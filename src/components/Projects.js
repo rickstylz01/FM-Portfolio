@@ -1,5 +1,5 @@
 import React from "react";
-import Thumbnail from "./Thumbnail";
+import Thumbnail from "../Thumbnail/Thumbnail";
 // import tourystImg from "../../public/images/tourystImg.png";
 import '../App.css';
 
