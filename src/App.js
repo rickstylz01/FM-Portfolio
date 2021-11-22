@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+// import logo from '../public/images/LOGO.png'
+import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Projects from "./components/Projects";
 import Articles from "./components/Articles";
 import About from "./components/About";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -11,52 +11,30 @@ function App() {
     <BrowserRouter>
       <div className="App">
 
-        {/*Set up the Router*/}
+        {/*Router setup*/}
         <Routes>
-          <Route
-            name="projects"
-            path="/"
-            element={<Projects />}
-          />
-          <Route
-            name="articles"
-            path="/articles"
-            element={<Articles />}
-          />
-          <Route
-            name="about"
-            path="/about"
-            element={<About />}
-          />
+          <Route path="/projects" component={Projects} />
+          <Route path="/articles" component={Articles} />
+          <Route path="/about" component={About} />
         </Routes>
 
         <div className="navigation">
-          <div className="navigation-sub">
+          <Link to="/">
+            <img
+              src="/images/LOGO.png"
+              className="logo-image"
+              alt="custom-logo"
+            />
+          </Link>
 
-            {/*Set up the Links.  Replace a tags with Link*/}
-            <Link
-              to="projects"
-              href=""
-              className="item"
-            >
-              Projects
-            </Link>
-            <Link
-              to="articles"
-              href=""
-              className="item"
-            >
-              Articles
-            </Link>
-            <Link
-              to="about"
-              href=""
-              className="item"
-            >
-              About
-            </Link>
+          <div className="navigation-sub">
+            {/*Set up links*/}
+            <Link to="/" className="item">Projects</Link>
+            <Link to="/about" className="item">About</Link>
+            <Link to="/articles" className="item">Articles</Link>
           </div>
         </div>
+
       </div>
     </BrowserRouter>
   );

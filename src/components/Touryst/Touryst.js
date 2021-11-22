@@ -1,11 +1,13 @@
 import React from "react";
-import Container from 'react-boostrap/Button';
+import {Container, Col, Row} from "react-bootstrap";
 
 const Touryst = (props) => {
   return(
-    <div className="">
-
-    </div>
+    <Container>
+      <Row>
+        <Col>1 of 1</Col>
+      </Row>
+    </Container>
   )
 }
 
