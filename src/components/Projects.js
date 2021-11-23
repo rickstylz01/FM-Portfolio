@@ -1,16 +1,24 @@
 import React from "react";
 import Thumbnail from "../Thumbnail/Thumbnail";
 import '../App.css';
+import {Col, Container, Row} from "react-bootstrap";
 
 const Projects = (props) => {
   return(
     <div>
-      <Thumbnail
-      link="/touryst"
-      image="/images/tourystImg.png"
-      title="Tour-Info Project"
-      role="Back-End Developer"
-      />
+      <Container fluid="sm">
+        <Row>
+          <Col>
+            <Thumbnail
+              link="/touryst"
+              image="/images/tourystImg.png"
+              title="Tour-Info Project"
+              role="Back-End Developer"
+            />
+          </Col>
+        </Row>
+      </Container>
+
       <Thumbnail
         link="/todo-app"
         image="/images/todoImg.png"
