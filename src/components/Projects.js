@@ -1,8 +1,8 @@
 import React from "react";
 import Thumbnail from "../Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
-import '../App.css';
 import {Col, Container, Row} from "react-bootstrap";
+import '../App.css';
 
 const Projects = (props) => {
   return(

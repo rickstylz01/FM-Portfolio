@@ -26,9 +26,9 @@ const Landing = () => {
             className="no-underline"
           >About</Link>
           <Link
-            to="/articles"
+            to="/blog"
             className="no-underline"
-          >Articles</Link>
+          >Blog</Link>
         </Row>
       </Container>
     </div>
