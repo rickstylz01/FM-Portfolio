@@ -7,7 +7,7 @@ import {Container, Image} from "react-bootstrap";
 
 const Thumbnail = (props) => {
   return (
-    <div className="project">
+    <div className="Thumbnail">
       <Link to={props.link}>
         <Container className="project-image">
           <div className="bg-light border">

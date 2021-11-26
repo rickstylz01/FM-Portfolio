@@ -1,4 +1,4 @@
-import {Container, Row} from "react-bootstrap";
+import {Container, Image, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import React from "react";
 
@@ -7,10 +7,11 @@ const Landing = () => {
     <div className="navigation">
       <Container fluid="sm" className="logo-img">
         <Link to="/">
-          <img
+          <Image
             src="/images/LOGO.png"
             className="logo-image"
             alt="custom-logo"
+            fluid
           />
         </Link>
       </Container>

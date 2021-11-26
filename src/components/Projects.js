@@ -7,22 +7,14 @@ import '../App.css';
 const Projects = (props) => {
   return(
     <div>
-
       <Navigation />
 
-      <Container fluid="sm">
-        <Row>
-          <Col>
-            <Thumbnail
-              link="/touryst"
-              image="/images/tourystImg.png"
-              title="Tour-Info Project"
-              role="Back-End Developer"
-            />
-          </Col>
-        </Row>
-      </Container>
-
+      <Thumbnail
+        link="/touryst"
+        image="/images/tourystImg.png"
+        title="Tour-Info Project"
+        role="Back-End Developer"
+      />
       <Thumbnail
         link="/todo-app"
         image="/images/todoImg.png"
