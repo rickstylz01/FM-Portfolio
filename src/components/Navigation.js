@@ -13,12 +13,12 @@ const Navigation = () => {
         <Navbar.Brand href="/">
           <img
             alt="custom logo"
-            src="/images/LOGO.png"
+            src="/images/blank-logo.png"
             width="30"
             height="30"
             className="d-inline-block align-top"
           />{' '}
-          Welcome!
+          Rick Maya
         </Navbar.Brand>
         <Navbar.Toggle ariaa-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
