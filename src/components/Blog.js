@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
-const About = (props) => {
+
+const Blog = (props) => {
   return(
     <div>
       <Navigation />
@@ -9,4 +10,4 @@ const About = (props) => {
   )
 }
 
-export default About;
+export default Blog;

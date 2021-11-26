@@ -1,33 +1,34 @@
 import React from "react";
-import Thumbnail from "./Thumbnail";
-// import tourystImg from "../../public/images/tourystImg.png";
+import Thumbnail from "./Thumbnail/Thumbnail";
+import Navigation from "./Navigation";
 import '../App.css';
 
 const Projects = (props) => {
   return(
     <div>
-      <h1>Projects</h1>
+      <Navigation />
+
       <Thumbnail
         link="/touryst"
-        image="/image/tourystImg"
+        image="/images/tourystImg.png"
         title="Tour-Info Project"
         role="Back-End Developer"
       />
       <Thumbnail
         link="/todo-app"
-        image="/image/todoImg"
+        image="/images/todoImg.png"
         title="Todo Application"
         role="Software Engineer"
       />
       <Thumbnail
         link="/rickstagram"
-        image="/image/rickstagramImg"
+        image="/images/rickstagramImg.png"
         title="Rickstagram"
         role="Software Engineer"
       />
       <Thumbnail
         link="/hidden-gems"
-        image="/image/hiddenGemsImg"
+        image="/images/hiddenGemsImg.png"
         title="Hidden Gems"
         role="Software Engineer"
       />

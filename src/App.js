@@ -1,9 +1,14 @@
 import React from "react";
-import logo from './logo.svg';
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from "react-router-dom";
+import Landing from "./components/Landing";
 import Projects from "./components/Projects";
-import Articles from "./components/Articles";
+import Blog from "./components/Blog";
 import About from "./components/About";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -11,23 +16,13 @@ function App() {
     <BrowserRouter>
       <div className="App">
 
-        {/*Set up the Router*/}
         <Routes>
-          <Route name="projects" path="/" element={<Projects />} />
-          <Route name="articles" path="/articles" element={<Articles />} />
-          <Route name="about" path="/about" element={<About />} />
+          <Route exact path="/" element={<Landing />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
 
-        <div className="navigation">
-          <img src={logo} className="logo" alt="logo"/>
-          <div className="navigation-sub">
-
-            {/*Set up the Links.  Replace a tags with Link*/}
-            <Link to="projects" href="" className="item">Projects</Link>
-            <Link to="articles" href="" className="item">Articles</Link>
-            <Link to="about" href="" className="item">About</Link>
-          </div>
-        </div>
       </div>
     </BrowserRouter>
   );
