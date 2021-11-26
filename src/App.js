@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
-import Articles from "./components/Articles";
+import Blog from "./components/Blog";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -20,8 +20,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route path={"/projects"} element={<Projects />} />
-          <Route path="/articles" component={Articles} />
-          <Route path="/about" component={About} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
 
       </div>

@@ -1,11 +1,15 @@
 import React from "react";
 import Thumbnail from "../Thumbnail/Thumbnail";
+import Navigation from "./Navigation";
 import '../App.css';
 import {Col, Container, Row} from "react-bootstrap";
 
 const Projects = (props) => {
   return(
     <div>
+
+      <Navigation />
+
       <Container fluid="sm">
         <Row>
           <Col>

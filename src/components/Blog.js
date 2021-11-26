@@ -1,6 +1,6 @@
 import React from "react";
 
-const Articles = (props) => {
+const Blog = (props) => {
   return(
     <div>
       <h1>New component</h1>
@@ -8,4 +8,4 @@ const Articles = (props) => {
   )
 }
 
-export default Articles;
+export default Blog;

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import '../App.css';
 
 
-function Thumbnail(props) {
+const Thumbnail = (props) => {
   return (
     <div className="project">
       <Link to={props.link}>

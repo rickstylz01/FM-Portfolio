@@ -2,7 +2,7 @@ import {Container, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import React from "react";
 
-function Landing() {
+const Landing = () => {
   return(
     <div className="navigation">
       <Container fluid="sm" className="logo-img">
