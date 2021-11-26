@@ -3,7 +3,7 @@
   padding: 50px;
 }
 
-.navigation {
+.landing {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,21 +11,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.text-style {
+  text-decoration: none;
+  font-family: "Gill Sans";
+  font-size: larger;
   color: white;
 }
 
-.navigation-sub {
-  display: flex;
-}
-
-#override-bootstrap Link {
-  justify-content: space-between;
-}
-
-.no-underline {
-  text-decoration: none;
-}
-
-.spread {
-
+.text-style:hover {
+  color: #7FFFD4;
 }

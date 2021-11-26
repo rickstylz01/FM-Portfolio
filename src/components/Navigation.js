@@ -8,8 +8,11 @@ const Navigation = () => {
       bg="dark"
       variant="dark"
       collapseOnSelect
-      expand="lg">
+      expand="lg"
+    >
+
       <Container>
+
         <Navbar.Brand href="/">
           <img
             alt="custom logo"
@@ -20,6 +23,7 @@ const Navigation = () => {
           />{' '}
           Rick Maya
         </Navbar.Brand>
+
         <Navbar.Toggle ariaa-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -27,6 +31,7 @@ const Navigation = () => {
             <Nav.Link href="/blog">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+
       </Container>
     </Navbar>
   );

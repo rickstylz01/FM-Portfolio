@@ -1,11 +1,13 @@
 import {Container, Image, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import React from "react";
+import "../App.css"
 
 const Landing = () => {
   return(
-    <div className="navigation">
-      <Container fluid="sm" className="logo-img">
+    <div className="landing">
+
+      <Container className="logo-img">
         <Link to="/">
           <Image
             src="/images/LOGO.png"
@@ -20,15 +22,15 @@ const Landing = () => {
         <Row>
           <Link
             to="/projects"
-            className="no-underline"
+            className="text-style"
           >Projects</Link>
           <Link
             to="/about"
-            className="no-underline"
+            className="text-style"
           >About</Link>
           <Link
             to="/blog"
-            className="no-underline"
+            className="text-style"
           >Blog</Link>
         </Row>
       </Container>
