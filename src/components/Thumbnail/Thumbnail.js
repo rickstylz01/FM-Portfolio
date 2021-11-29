@@ -9,16 +9,20 @@ const Thumbnail = (props) => {
       <Link to={props.link} className="thumbnail-text">
         <Container className="project-image">
           <div className="bg-light border">
-            <Image src={props.image} alt="project sample" fluid />
+            <Image
+              src={props.image}
+              alt="project sample"
+              fluid
+            />
           </div>
         </Container>
-        <div
-          className="project-title thumbnail-text">
+
+        <div className="project-title thumbnail-text">
           {props.title}
         </div>
       </Link>
-      <div
-        className="project-role thumbnail-text">
+
+      <div className="project-role thumbnail-text">
         {props.role}
       </div>
     </div>

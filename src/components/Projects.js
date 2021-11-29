@@ -2,6 +2,8 @@ import React from "react";
 import Thumbnail from "./Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
 import '../App.css';
+import {Route, Routes} from "react-router-dom";
+import Inspect from "./Inspect";
 
 const Projects = (props) => {
   return(
@@ -9,7 +11,7 @@ const Projects = (props) => {
       <Navigation />
 
       <Thumbnail
-        link="/touryst"
+        link="touryst/inspect"
         image="/images/tourystImg.png"
         title="Tour-Info Project"
         role="Back-End Developer"
