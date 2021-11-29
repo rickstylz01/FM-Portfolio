@@ -32,6 +32,7 @@ const Projects = (props) => {
         title="Hidden Gems"
         role="Software Engineer"
       />
+
     </div>
   )
 }
