@@ -6,11 +6,5 @@
   color: black;
   text-decoration: none;
   font-family: "Gill Sans";
-
+  font-size: larger;
 }
-
-.thumbnail-text:hover {
-  color: #5F9EA0
-}
-
-
