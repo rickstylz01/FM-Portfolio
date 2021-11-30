@@ -10,7 +10,7 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Inspect from "./components/Inspect";
+import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
   return (
@@ -22,7 +22,10 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/inspect"  element={<Inspect />} />
+          <Route
+            path={`/project/:title`}
+            element={<ProjectDetails />}
+          />
         </Routes>
 
       </div>
