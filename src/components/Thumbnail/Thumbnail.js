@@ -6,7 +6,7 @@ import'./Thumbnail.css';
 const Thumbnail = (props) => {
   return (
     <div className="Thumbnail">
-      <Link to={`/projects/${props.link}`} className="thumbnail-text">
+      <Link to={`/project/${props.link}`} className="thumbnail-text">
         <Container className="project-image">
           <div className="bg-light border">
             <Image
