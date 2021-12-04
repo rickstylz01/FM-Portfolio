@@ -3,8 +3,8 @@ import Thumbnail from "./Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
 import '../App.css';
 
-const Projects = (props) => {
-  return(
+const Projects = () => {
+  return (
     <div>
       <Navigation />
 

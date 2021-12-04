@@ -1,7 +1,7 @@
 import React from "react";
-import {Image} from "react-bootstrap";
 import Navigation from "./Navigation";
 import '../App.css'
+import Thumbnail from "./Thumbnail/Thumbnail";
 
 const ProjectDetails = (props) => {
 
@@ -9,13 +9,14 @@ return (
   <div>
     <Navigation />
 
-    <div className="bg-light border">
-      <Image
-        src={props.image}
-        alt="project sample"
-        fluid
-      />
-    </div>
+    <Thumbnail
+      link={props.link}
+      image={props.image}
+      title={props.title}
+      role={props.role}
+    />
+
+    <h1>Hello world!</h1>
 
   </div>
   )
