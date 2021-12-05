@@ -1,25 +1,21 @@
 import React from "react";
 import Navigation from "./Navigation";
 import '../App.css'
-import Thumbnail from "./Thumbnail/Thumbnail";
+import {useLocation} from "react-router-dom";
 
-const ProjectDetails = (props) => {
+const ProjectDetails = ({ props }) => {
+  const location = useLocation();
+  const projectData = location.state
 
-return (
-  <div>
-    <Navigation />
+  // console.log(projectData.projectData.title);
+  return (
+    <div>
+      <Navigation />
 
-    <Thumbnail
-      link={props.link}
-      image={props.image}
-      title={props.title}
-      role={props.role}
-    />
+      <h1>{projectData.projectData.title}</h1>
 
-    <h1>Hello world!</h1>
-
-  </div>
-  )
+    </div>
+  );
 }
 
 export default ProjectDetails;

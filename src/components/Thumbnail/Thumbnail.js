@@ -3,10 +3,13 @@ import {Link} from "react-router-dom";
 import {Container, Image} from "react-bootstrap";
 import'./Thumbnail.css';
 
-const Thumbnail = (props) => {
+const Thumbnail = ({ props }) => {
   return (
     <div className="Thumbnail">
-      <Link to={`/projects/${props.link}`} className="thumbnail-text">
+      <Link
+        to="/projects/touryst"
+        state={{ projectData: props }}
+        className="thumbnail-text">
         <Container className="project-image">
           <div className="bg-light border">
             <Image
