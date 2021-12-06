@@ -1,7 +1,8 @@
 import React from "react";
 import Navigation from "../Navigation";
-import '../../App.css'
 import {useLocation} from "react-router-dom";
+import {Image} from "react-bootstrap";
+import '../../App.css'
 
 const ProjectDetails = ({ props }) => {
   const location = useLocation();
@@ -10,7 +11,13 @@ const ProjectDetails = ({ props }) => {
   return (
     <div>
       <Navigation />
-
+      <Image
+        src={projectData.projectData.image}
+        alt="project sample"
+        fluid
+      />
+      <br/>
+      <br/>
       <h1>{projectData.projectData.title}</h1>
 
     </div>
