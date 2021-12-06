@@ -12,6 +12,24 @@ class Projects extends React.Component {
         image: "/images/tourystImg.png",
         title: "Tour-Info Project",
         role: "Back-End Developer"
+      },
+      {
+        link: "todo-app",
+        image: "/images/todoImg.png",
+        title: "Todo Application",
+        role: "Software Engineer"
+      },
+      {
+        link: "rickstagram",
+        image: "/images/rickstagramImg.png",
+        title: "Rickstagram",
+        role: "Software Engineer"
+      },
+      {
+        link: "hidden-gems",
+        image: "/images/hiddenGemsImg.png",
+        title: "Hidden Gems",
+        role: "Software Engineer"
       }
     ];
   }
@@ -21,26 +39,10 @@ class Projects extends React.Component {
       <div>
         <Navigation />
 
-        <Thumbnail props={this.projects[0]}/>
-
-        {/*<Thumbnail*/}
-        {/*  link="todo-app"*/}
-        {/*  image="/images/todoImg.png"*/}
-        {/*  title="Todo Application"*/}
-        {/*  role="Software Engineer"*/}
-        {/*/>*/}
-        {/*<Thumbnail*/}
-        {/*  link="rickstagram"*/}
-        {/*  image="/images/rickstagramImg.png"*/}
-        {/*  title="Rickstagram"*/}
-        {/*  role="Software Engineer"*/}
-        {/*/>*/}
-        {/*<Thumbnail*/}
-        {/*  link="hidden-gems"*/}
-        {/*  image="/images/hiddenGemsImg.png"*/}
-        {/*  title="Hidden Gems"*/}
-        {/*  role="Software Engineer"*/}
-        {/*/>*/}
+        <Thumbnail props={this.projects[0]} />
+        <Thumbnail props={this.projects[1]} />
+        <Thumbnail props={this.projects[2]} />
+        <Thumbnail props={this.projects[3]} />
 
       </div>
     )

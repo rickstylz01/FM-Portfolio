@@ -10,7 +10,7 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import ProjectDetails from "./components/ProjectDetails";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 function App() {
   return (

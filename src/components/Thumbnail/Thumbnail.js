@@ -9,7 +9,8 @@ const Thumbnail = ({ props }) => {
       <Link
         to="/projects/touryst"
         state={{ projectData: props }}
-        className="thumbnail-text">
+        className="thumbnail-text"
+      >
         <Container className="project-image">
           <div className="bg-light border">
             <Image
