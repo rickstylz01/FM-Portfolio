@@ -45,9 +45,7 @@ class Projects extends React.Component {
         <Thumbnail props={this.projects[2]} />
         <Thumbnail props={this.projects[3]} />
 
-        <Footer>
-          A Salvi Rick Production
-        </Footer>
+        <Footer/>
       </div>
     )
   }
