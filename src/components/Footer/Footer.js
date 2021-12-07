@@ -9,19 +9,28 @@ const Footer = () => {
     <div id="footer" className="phantomStyle">
       <div className="footerStyle">
         <SocialIcon
-          className="icon-size"
           url="https://www.linkedin.com/in/rickmaya/"
           bgColor="#5F9EA0"
+          style={{
+            height: 40,
+            width: 42
+          }}
         />
         <SocialIcon
-          className="icon-size"
           url="https://github.com/rickstylz01"
           bgColor="#5F9EA0"
+          style={{
+            height: 40,
+            width: 42
+          }}
         />
         <SocialIcon
-          className="icon-size"
           url="https://twitter.com/waves_ride"
           bgColor="#5F9EA0"
+          style={{
+            height: 40,
+            width: 42
+          }}
         />
       </div>
     </div>
