@@ -8,25 +8,25 @@ class Projects extends React.Component {
     super();
     this.projects = [
       {
-        link: "touryst",
+        link: "/projects/touryst",
         image: "/images/tourystImg.png",
         title: "Tour-Info Project",
         role: "Back-End Developer"
       },
       {
-        link: "todo-app",
+        link: "/projects/todo-app",
         image: "/images/todoImg.png",
         title: "Todo Application",
         role: "Software Engineer"
       },
       {
-        link: "rickstagram",
+        link: "/projects/rickstagram",
         image: "/images/rickstagramImg.png",
         title: "Rickstagram",
         role: "Software Engineer"
       },
       {
-        link: "hidden-gems",
+        link: "/projects/hidden-gems",
         image: "/images/hiddenGemsImg.png",
         title: "Hidden Gems",
         role: "Software Engineer"

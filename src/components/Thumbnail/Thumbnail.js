@@ -7,7 +7,7 @@ const Thumbnail = ({ props }) => {
   return (
     <div className="Thumbnail">
       <Link
-        to="/projects/touryst"
+        to={props.link}
         state={{ projectData: props }}
         className="thumbnail-text"
       >
