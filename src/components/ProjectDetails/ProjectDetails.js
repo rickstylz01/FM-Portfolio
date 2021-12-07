@@ -8,6 +8,7 @@ const ProjectDetails = ({ props }) => {
   const location = useLocation();
   const projectData = location.state
 
+  console.log(props);
   return (
     <div>
       <Navigation />
@@ -16,8 +17,7 @@ const ProjectDetails = ({ props }) => {
         alt="project sample"
         fluid
       />
-      <br/>
-      <br/>
+
       <h1>{projectData.projectData.title}</h1>
 
     </div>
