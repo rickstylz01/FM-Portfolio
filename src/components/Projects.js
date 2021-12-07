@@ -2,7 +2,7 @@ import React from "react";
 import Thumbnail from "./Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
 import '../App.css';
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 
 class Projects extends React.Component {
   constructor() {

@@ -3,6 +3,7 @@ import Navigation from "../Navigation";
 import {useLocation} from "react-router-dom";
 import {Image} from "react-bootstrap";
 import '../../App.css'
+import Footer from "../Footer/Footer";
 
 const ProjectDetails = ({ props }) => {
   const location = useLocation();
@@ -20,6 +21,7 @@ const ProjectDetails = ({ props }) => {
 
       <h1>{projectData.projectData.title}</h1>
 
+      <Footer />
     </div>
   );
 }
