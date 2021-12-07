@@ -34,6 +34,7 @@ const Landing = () => {
           >Blog</Link>
         </Row>
       </Container>
+
     </div>
     )
 }

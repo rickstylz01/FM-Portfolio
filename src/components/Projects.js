@@ -3,38 +3,51 @@ import Thumbnail from "./Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
 import '../App.css';
 
-const Projects = (props) => {
-  return(
-    <div>
-      <Navigation />
+class Projects extends React.Component {
+  constructor() {
+    super();
+    this.projects = [
+      {
+        link: "/projects/touryst",
+        image: "/images/tourystImg.png",
+        title: "Tour-Info Project",
+        role: "Back-End Developer"
+      },
+      {
+        link: "/projects/todo-app",
+        image: "/images/todoImg.png",
+        title: "Todo Application",
+        role: "Software Engineer"
+      },
+      {
+        link: "/projects/rickstagram",
+        image: "/images/rickstagramImg.png",
+        title: "Rickstagram",
+        role: "Software Engineer"
+      },
+      {
+        link: "/projects/hidden-gems",
+        image: "/images/hiddenGemsImg.png",
+        title: "Hidden Gems",
+        role: "Software Engineer"
+      }
+    ];
+  }
 
-      <Thumbnail
-        link="/touryst"
-        image="/images/tourystImg.png"
-        title="Tour-Info Project"
-        role="Back-End Developer"
-      />
-      <Thumbnail
-        link="/todo-app"
-        image="/images/todoImg.png"
-        title="Todo Application"
-        role="Software Engineer"
-      />
-      <Thumbnail
-        link="/rickstagram"
-        image="/images/rickstagramImg.png"
-        title="Rickstagram"
-        role="Software Engineer"
-      />
-      <Thumbnail
-        link="/hidden-gems"
-        image="/images/hiddenGemsImg.png"
-        title="Hidden Gems"
-        role="Software Engineer"
-      />
+  render() {
+    return (
+      <div>
+        <Navigation />
 
-    </div>
-  )
+        <Thumbnail props={this.projects[0]} />
+        <Thumbnail props={this.projects[1]} />
+        <Thumbnail props={this.projects[2]} />
+        <Thumbnail props={this.projects[3]} />
+
+      </div>
+    )
+  }
+
 }
 
 export default Projects;
