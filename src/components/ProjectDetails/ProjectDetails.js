@@ -3,23 +3,21 @@ import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
 import {Col, Container, Image, Row} from "react-bootstrap";
-import './projectInfo';
-import { projectData } from "./projectInfo";
-
-'./ProjectDetails.css';
+import './ProjectDetails.css';
 
 const ProjectDetails = ({ props }) => {
   const location = useLocation();
   const projectData = location.state
+  const pd = projectData.projectData;
 
   console.log(props);
   return (
     <div className="Touryst">
       <Navigation />
-      <h1 className="textStyle">{projectData.projectData.title}</h1>
+      <h1 className="textStyle">{pd.title}</h1>
 
       <Image
-        src={projectData.projectData.image}
+        src={pd.image}
         alt="project sample"
         fluid
       />
