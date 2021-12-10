@@ -1,8 +1,7 @@
 import React from "react";
 import Thumbnail from "./Thumbnail/Thumbnail";
 import Navigation from "./Navigation";
-import '../App.css';
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 
 class Projects extends React.Component {
   constructor() {
@@ -45,9 +44,7 @@ class Projects extends React.Component {
         <Thumbnail props={this.projects[2]} />
         <Thumbnail props={this.projects[3]} />
 
-        <Footer>
-          A Salvi Rick Production
-        </Footer>
+        <Footer/>
       </div>
     )
   }
