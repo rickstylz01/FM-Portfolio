@@ -15,6 +15,8 @@ const ProjectDetails = () => {
   return (
     <div className="Touryst">
       <Navigation />
+
+
       <h1 className="textStyle">{project.title}</h1>
 
       <Image
@@ -57,7 +59,7 @@ const ProjectDetails = () => {
             <p>{projectInfo[0].techStack}</p>
           </Col>
           <Col>
-            <p>{projectInfo[1].link}</p>
+            <p>{projectInfo[2].link}</p>
           </Col>
         </Row>
       </Container>
