@@ -1,23 +1,24 @@
 import React from "react";
+import { projectInfo } from "./projectInfo";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import './ProjectDetails.css';
 
-const ProjectDetails = ({ props }) => {
+const ProjectDetails = () => {
   const location = useLocation();
   const projectData = location.state
-  const pd = projectData.projectData;
+  const project = projectData.projectData;
+  console.log(projectInfo[0].brief);
 
-  console.log(props);
   return (
     <div className="Touryst">
       <Navigation />
-      <h1 className="textStyle">{pd.title}</h1>
+      <h1 className="textStyle">{project.title}</h1>
 
       <Image
-        src={pd.image}
+        src={project.image}
         alt="project sample"
         fluid
       />
@@ -25,25 +26,38 @@ const ProjectDetails = ({ props }) => {
       <Container>
         <Row>
           <Col>
+            <h2>Description</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>{projectInfo[0].brief}</p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
+          <Col>
             <h2>Role</h2>
           </Col>
           <Col>
-            <h2>Description</h2>
+            <h2>Stack</h2>
           </Col>
           <Col>
-            <h2>Date</h2>
+            <h2>Link</h2>
           </Col>
         </Row>
 
         <Row>
           <Col>
-            <p>Back-end Developer</p>
+            <p>{projectInfo[0].role}</p>
           </Col>
           <Col>
-            <p>This project was created while I was... </p>
+            <p>{projectInfo[0].techStack}</p>
           </Col>
           <Col>
-            <p>12/07/21</p>
+            <p>{projectInfo[1].link}</p>
           </Col>
         </Row>
       </Container>
