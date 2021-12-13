@@ -10,12 +10,10 @@ const ProjectDetails = () => {
   const location = useLocation();
   const projectData = location.state
   const project = projectData.projectData;
-  console.log(projectInfo[0].brief);
 
   return (
     <div className="Touryst">
       <Navigation />
-
 
       <h1 className="textStyle">{project.title}</h1>
 
@@ -59,7 +57,7 @@ const ProjectDetails = () => {
             <p>{projectInfo[0].techStack}</p>
           </Col>
           <Col>
-            <p>{projectInfo[2].link}</p>
+            <p>{projectInfo[2].projectLink}</p>
           </Col>
         </Row>
       </Container>

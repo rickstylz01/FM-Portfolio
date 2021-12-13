@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 
 export const projectInfo = [
   {
@@ -18,7 +17,7 @@ export const projectInfo = [
     role: "Software Engineer",
     brief: "Short-term contract to help complete a printing e-commerce website.",
     techStack: "",
-    link: <Link to="https://www.houndcustom.com/">Hound Custom</Link>
+    projectLink: <a href="/https://www.houndcustom.com/">Hound Custom</a>
   },
   {
     title: "Hidden Gemz",

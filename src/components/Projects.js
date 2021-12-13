@@ -39,12 +39,9 @@ class Projects extends React.Component {
       <div>
         <Navigation />
 
-        <Thumbnail props={this.projects[0]} />
-        <Thumbnail props={this.projects[1]} />
-        <Thumbnail props={this.projects[2]} />
-        <Thumbnail props={this.projects[3]} />
+        {this.projects.map((value, index) => <Thumbnail key={index} props={value} />)}
 
-        <Footer/>
+        <Footer />
       </div>
     )
   }
