@@ -10,7 +10,7 @@ import Blog from "./components/Blog";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
+// import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/projects/:title" element={<ProjectDetails />}
+          {/*<Route path="/projects/:title" element={<ProjectDetails />}*/}
           />
         </Routes>
 

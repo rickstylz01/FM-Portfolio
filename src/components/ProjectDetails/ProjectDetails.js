@@ -1,5 +1,4 @@
 import React from "react";
-import { projectInfo } from "./projectInfo";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
@@ -31,7 +30,7 @@ const ProjectDetails = () => {
         </Row>
         <Row>
           <Col>
-            <p>{projectInfo[0].brief}</p>
+            {/*<p>{projectInfo[0].brief}</p>*/}
           </Col>
         </Row>
       </Container>
@@ -51,13 +50,13 @@ const ProjectDetails = () => {
 
         <Row>
           <Col>
-            <p>{projectInfo[0].role}</p>
+            {/*<p>{projectInfo[0].role}</p>*/}
           </Col>
           <Col>
-            <p>{projectInfo[0].techStack}</p>
+            {/*<p>{projectInfo[0].techStack}</p>*/}
           </Col>
           <Col>
-            <p>{projectInfo[2].projectLink}</p>
+            {/*<p>{projectInfo[2].projectLink}</p>*/}
           </Col>
         </Row>
       </Container>

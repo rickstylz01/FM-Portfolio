@@ -43,7 +43,7 @@ const ProjectList = () => {
     <div>
       <Navigation />
       {
-        this.projects.map((value, index) => <Thumbnail key={index} props={value} />)
+        projectInfo.map((project, index) => <Thumbnail key={index} project={project} />)
       }
       <Footer />
     </div>
