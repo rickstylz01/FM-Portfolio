@@ -5,7 +5,7 @@ import {
   Routes
 } from "react-router-dom";
 import Landing from "./components/Landing";
-import Projects from "./components/Projects";
+import Projects from "./components/ProjectList";
 import Blog from "./components/Blog";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
