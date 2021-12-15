@@ -8,21 +8,20 @@ export const projectInfo = [
   },
   {
     title: "Todo List",
-    role: "",
-    brief: "",
-    techStack: "",
+    role: "Software Engineer",
+    brief: "ipsum ipsum lorum lorum",
+    techStack: "Nodejs, Reactjs, MongoDB/Mongoose"
   },
   {
     title: "Rickstagram",
     role: "Software Engineer",
     brief: "Short-term contract to help complete a printing e-commerce website.",
-    techStack: "",
-    projectLink: <a href="/https://www.houndcustom.com/">Hound Custom</a>
+    techStack: "JavaScript, Reactjs"
   },
   {
     title: "Hidden Gemz",
-    role: "",
-    brief: "",
-    techStack: "",
+    role: "Software Engineer",
+    brief: "lorum lorum ipsum ipsum",
+    techStack: "Reactjs, GoogleAPI"
   }
 ]
