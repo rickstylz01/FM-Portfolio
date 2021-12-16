@@ -35,7 +35,7 @@ function App() {
       image: "/images/rickstagramImg.png",
       title: "Rickstagram",
       role: "Software Engineer",
-      brief: "Short-term contract to help complete a printing e-commerce website.",
+      brief: "A project to enhance my knowledge using and understanding the fundamentals of Reactjs",
       techStack: "JavaScript, Reactjs"
     },
     {
