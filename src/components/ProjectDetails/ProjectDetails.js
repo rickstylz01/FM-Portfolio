@@ -5,48 +5,61 @@ import {useLocation} from "react-router-dom";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import './ProjectDetails.css';
 
-const ProjectDetails = ({ props }) => {
+const ProjectDetails = () => {
   const location = useLocation();
-  const projectData = location.state
-  const pd = projectData.projectData;
+  const { project } = location.state
+  // const project = projectData.projectData;
 
-  console.log(props);
   return (
     <div className="Touryst">
       <Navigation />
-      <h1 className="textStyle">{pd.title}</h1>
+
+      <h1 className="textStyle">{project.title}</h1>
 
       <Image
-        src={pd.image}
+        src={project.image}
         alt="project sample"
         fluid
       />
 
-      <Container>
-        <Row>
-          <Col>
-            <h2>Role</h2>
-          </Col>
-          <Col>
-            <h2>Description</h2>
-          </Col>
-          <Col>
-            <h2>Date</h2>
-          </Col>
-        </Row>
+      {/*<Container>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Description</h2>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.brief}</p>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*</Container>*/}
 
-        <Row>
-          <Col>
-            <p>Back-end Developer</p>
-          </Col>
-          <Col>
-            <p>This project was created while I was... </p>
-          </Col>
-          <Col>
-            <p>12/07/21</p>
-          </Col>
-        </Row>
-      </Container>
+      {/*<Container>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Role</h2>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Stack</h2>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Link</h2>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.role}</p>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.techStack}</p>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.projectLink}</p>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*</Container>*/}
 
       <Footer />
     </div>

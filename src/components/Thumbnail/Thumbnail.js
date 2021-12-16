@@ -3,18 +3,18 @@ import {Link} from "react-router-dom";
 import {Container, Image} from "react-bootstrap";
 import'./Thumbnail.css';
 
-const Thumbnail = ({ props }) => {
+const Thumbnail = ({ project }) => {
   return (
     <div className="Thumbnail">
       <Link
-        to={props.link}
-        state={{ projectData: props }}
+        to={project.link}
+        state={{ project: project }}
         className="thumbnail-text"
       >
         <Container className="project-image">
           <div className="bg-light border">
             <Image
-              src={props.image}
+              src={project.image}
               alt="project sample"
               fluid
             />
@@ -22,12 +22,12 @@ const Thumbnail = ({ props }) => {
         </Container>
 
         <div className="project-title thumbnail-text">
-          {props.title}
+          {project.title}
         </div>
       </Link>
 
       <div className="project-role thumbnail-text">
-        {props.role}
+        {project.role}
       </div>
     </div>
   );
