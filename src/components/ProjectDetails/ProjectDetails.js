@@ -8,7 +8,6 @@ import './ProjectDetails.css';
 const ProjectDetails = () => {
   const location = useLocation();
   const { project } = location.state
-  // const project = projectData.projectData;
 
   return (
     <div className="Touryst">
