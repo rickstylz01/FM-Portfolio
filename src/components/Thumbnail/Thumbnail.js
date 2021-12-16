@@ -8,7 +8,7 @@ const Thumbnail = ({ project }) => {
     <div className="Thumbnail">
       <Link
         to={project.link}
-        state={{ projectData: project }}
+        state={{ project: project }}
         className="thumbnail-text"
       >
         <Container className="project-image">

@@ -7,8 +7,8 @@ import './ProjectDetails.css';
 
 const ProjectDetails = () => {
   const location = useLocation();
-  const projectData = location.state
-  const project = projectData.projectData;
+  const { project } = location.state
+  // const project = projectData.projectData;
 
   return (
     <div className="Touryst">
@@ -22,44 +22,44 @@ const ProjectDetails = () => {
         fluid
       />
 
-      <Container>
-        <Row>
-          <Col>
-            <h2>Description</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            {/*<p>{projectInfo[0].brief}</p>*/}
-          </Col>
-        </Row>
-      </Container>
+      {/*<Container>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Description</h2>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.brief}</p>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*</Container>*/}
 
-      <Container>
-        <Row>
-          <Col>
-            <h2>Role</h2>
-          </Col>
-          <Col>
-            <h2>Stack</h2>
-          </Col>
-          <Col>
-            <h2>Link</h2>
-          </Col>
-        </Row>
+      {/*<Container>*/}
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Role</h2>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Stack</h2>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <h2>Link</h2>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
 
-        <Row>
-          <Col>
-            {/*<p>{projectInfo[0].role}</p>*/}
-          </Col>
-          <Col>
-            {/*<p>{projectInfo[0].techStack}</p>*/}
-          </Col>
-          <Col>
-            {/*<p>{projectInfo[2].projectLink}</p>*/}
-          </Col>
-        </Row>
-      </Container>
+      {/*  <Row>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.role}</p>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.techStack}</p>*/}
+      {/*    </Col>*/}
+      {/*    <Col>*/}
+      {/*      <p>{project.projectLink}</p>*/}
+      {/*    </Col>*/}
+      {/*  </Row>*/}
+      {/*</Container>*/}
 
       <Footer />
     </div>
