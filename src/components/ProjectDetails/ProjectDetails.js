@@ -39,23 +39,31 @@ const ProjectDetails = () => {
           <Col>
             <h2>Role</h2>
           </Col>
+        </Row>
+        <Row>
           <Col>
-            <h2>Stack</h2>
-          </Col>
-          <Col>
-            <h2>Link</h2>
+            <p>{project.role}</p>
           </Col>
         </Row>
 
         <Row>
           <Col>
-            <p>{project.role}</p>
+            <h2>Stack</h2>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <p>{project.techStack}</p>
           </Col>
+        </Row>
+        <Row>
           <Col>
-            <p>{project.projectLink}</p>
+            <h2>Link</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>{project.link}</p>
           </Col>
         </Row>
       </Container>
