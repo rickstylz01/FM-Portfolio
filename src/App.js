@@ -39,6 +39,7 @@ function App() {
       image: "/images/rickstagramImg.png",
       title: "Rickstagram",
       role: "Software Engineer",
+
       brief: "Short-term contract to help complete a printing e-commerce website.",
       techStack: "JavaScript, Reactjs",
       projectLink: {
