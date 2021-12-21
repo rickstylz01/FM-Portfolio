@@ -8,7 +8,7 @@ import './ProjectDetails.css';
 const ProjectDetails = () => {
   const location = useLocation();
   const { project } = location.state
-  // const project = projectData.projectData;
+  console.log(project.projectLink);
 
   return (
     <div className="Touryst">
@@ -33,23 +33,35 @@ const ProjectDetails = () => {
             <p>{project.brief}</p>
           </Col>
         </Row>
+<<<<<<< HEAD
       </Container>
 
       <Container>
+=======
+
+>>>>>>> main
         <Row>
           <Col>
             <h2>Role</h2>
           </Col>
+<<<<<<< HEAD
           <Col>
             <h2>Stack</h2>
           </Col>
           <Col>
             <h2>Link</h2>
+=======
+        </Row>
+        <Row>
+          <Col>
+            <p>{project.role}</p>
+>>>>>>> main
           </Col>
         </Row>
 
         <Row>
           <Col>
+<<<<<<< HEAD
             <p>{project.role}</p>
           </Col>
           <Col>
@@ -57,6 +69,27 @@ const ProjectDetails = () => {
           </Col>
           <Col>
             <p>{project.projectLink}</p>
+=======
+            <h2>Stack</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>{project.techStack}</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <h2>Link</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <a href={project.projectLink.to}>
+              {project.projectLink.text}
+            </a>
+>>>>>>> main
           </Col>
         </Row>
       </Container>
