@@ -27,7 +27,7 @@ function App() {
       image: "/images/todoImg.png",
       title: "Todo Application",
       role: "Software Engineer",
-      brief: "ipsum ipsum lorum lorum",
+      brief: "This is a simple to-do application that let's you create, edit, delete, and mark task's as complete.",
       techStack: "Nodejs, Reactjs, MongoDB/Mongoose",
       projectLink: {
         to: "https://github.com/rickstylz01/soloNodeTodo",
@@ -40,7 +40,7 @@ function App() {
       title: "Rickstagram",
       role: "Software Engineer",
 
-      brief: "Short-term contract to help complete a printing e-commerce website.",
+      brief: "An Instagram clone application. Complete with modals ",
       techStack: "JavaScript, Reactjs",
       projectLink: {
         to: "https://github.com/rickstylz01/Rickstagram",
