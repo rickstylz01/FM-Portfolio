@@ -1,13 +1,14 @@
 import React from "react";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
-import {useLocation} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import './ProjectDetails.css';
 
 const ProjectDetails = () => {
   const location = useLocation();
   const { project } = location.state
+  console.log(project.projectLink);
 
   return (
     <div className="Touryst">
@@ -32,9 +33,7 @@ const ProjectDetails = () => {
             <p>{project.brief}</p>
           </Col>
         </Row>
-      </Container>
 
-      <Container>
         <Row>
           <Col>
             <h2>Role</h2>
@@ -56,6 +55,7 @@ const ProjectDetails = () => {
             <p>{project.techStack}</p>
           </Col>
         </Row>
+
         <Row>
           <Col>
             <h2>Link</h2>
@@ -63,7 +63,9 @@ const ProjectDetails = () => {
         </Row>
         <Row>
           <Col>
-            <p>{project.link}</p>
+            <a href={project.projectLink.to}>
+              {project.projectLink.text}
+            </a>
           </Col>
         </Row>
       </Container>

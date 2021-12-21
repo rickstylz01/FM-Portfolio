@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter,
-  Route,
-  Routes
-} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Landing from "./components/Landing";
 import ProjectList from "./components/ProjectList";
 import Blog from "./components/Blog";
@@ -20,7 +16,11 @@ function App() {
       title: "Tour-Info Project",
       role: "Back-End Developer",
       brief: "Collaborated with a team of back-end developers to create a tour information/booking application complete with user registration, email verification, and tour booking features",
-      techStack: "Nodejs, MongoDB/Mongoose, EJS, Bcrypt, JWT, Javascript, Git/Github"
+      techStack: "Nodejs, MongoDB/Mongoose, EJS, Bcrypt, JWT, Javascript, Git/Github",
+      projectLink: {
+        to: "https://github.com/reskillamericans/Tour-Info-Group-Node",
+        text: "Touryst Github"
+      }
     },
     {
       link: "/projects/todo-app",
@@ -28,7 +28,11 @@ function App() {
       title: "Todo Application",
       role: "Software Engineer",
       brief: "ipsum ipsum lorum lorum",
-      techStack: "Nodejs, Reactjs, MongoDB/Mongoose"
+      techStack: "Nodejs, Reactjs, MongoDB/Mongoose",
+      projectLink: {
+        to: "https://github.com/rickstylz01/soloNodeTodo",
+        text: "Todo App Github"
+      }
     },
     {
       link: "/projects/rickstagram",
@@ -36,7 +40,11 @@ function App() {
       title: "Rickstagram",
       role: "Software Engineer",
       brief: "Short-term contract to help complete a printing e-commerce website.",
-      techStack: "JavaScript, Reactjs"
+      techStack: "JavaScript, Reactjs",
+      projectLink: {
+        to: "https://github.com/rickstylz01/Rickstagram",
+        text: "Rickstagram Github"
+      }
     },
     {
       link: "/projects/hidden-gems",
@@ -44,7 +52,11 @@ function App() {
       title: "Hidden Gems",
       role: "Software Engineer",
       brief: "lorum lorum ipsum ipsum",
-      techStack: "Reactjs, GoogleAPI"
+      techStack: "Reactjs, GoogleAPI",
+      projectLink: {
+        to: "https://github.com/rickstylz01/-hidden-gemz",
+        text: "Hidden Gems Github"
+      }
     }
   ];
 
