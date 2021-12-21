@@ -63,7 +63,10 @@ const ProjectDetails = () => {
         </Row>
         <Row>
           <Col>
-            <a href={project.projectLink.to}>
+            <a
+              href={project.projectLink.to}
+              target="_blank" rel="noreferrer"
+            >
               {project.projectLink.text}
             </a>
           </Col>

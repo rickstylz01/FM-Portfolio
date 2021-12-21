@@ -5,3 +5,13 @@
 .textStyle {
   font-family: "Gill Sans"
 }
+
+a {
+  text-decoration: none;
+  color: cadetblue ;
+}
+
+a:hover {
+  color: darkslategray;
+}
+
