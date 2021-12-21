@@ -38,6 +38,8 @@ const ProjectDetails = () => {
           <Col>
             <h2>Role</h2>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <p>{project.role}</p>
           </Col>
