@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
-import {Link, useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import './ProjectDetails.css';
 
