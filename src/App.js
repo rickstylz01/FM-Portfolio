@@ -40,8 +40,8 @@ function App() {
       title: "Rickstagram",
       role: "Software Engineer",
 
-      brief: "An Instagram clone application. Complete with modals ",
-      techStack: "JavaScript, Reactjs",
+      brief: "An Instagram clone application. Complete with a functional searchbar and modal pop ups for a closer look at images.",
+      techStack: "JavaScript, Reactjs, Bootstrap",
       projectLink: {
         to: "https://github.com/rickstylz01/Rickstagram",
         text: "Rickstagram Github"
@@ -52,8 +52,8 @@ function App() {
       image: "/images/hiddenGemsImg.png",
       title: "Hidden Gems",
       role: "Software Engineer",
-      brief: "lorum lorum ipsum ipsum",
-      techStack: "Reactjs, GoogleAPI",
+      brief: "Using Reactjs, Bootstrap and Google's location beta api, I created an app that will locate registered restaurants and cafes in your immediate area within a 10 mile radius.",
+      techStack: "Reactjs, GoogleAPI, Bootstrap",
       projectLink: {
         to: "https://github.com/rickstylz01/-hidden-gemz",
         text: "Hidden Gems Github"
