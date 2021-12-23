@@ -1,11 +1,19 @@
 import {Container, Image, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import React from "react";
+import Tunnal from "./tunnal.mov";
 import "../App.css"
 
 const Landing = () => {
   return(
     <div className="landing">
+
+      <Container>
+        <video id="background-video" autoPlay loop muted>
+          <source src={Tunnal} type="video/mp4"></source>
+        </video>
+      </Container>
+
 
       <Container className="logo-img">
         <Link to="/">
@@ -34,7 +42,6 @@ const Landing = () => {
           >Blog</Link>
         </Row>
       </Container>
-
     </div>
     )
 }
