@@ -3,8 +3,12 @@
   padding: 50px;
 }
 
+.home-nav-links {
+
+}
+
 .landing {
-  background-color: #282c34;
+  position: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +18,14 @@
 }
 
 #background-video {
-  background-color: red;
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .text-style {
@@ -25,5 +36,9 @@
 }
 
 .text-style:hover {
-  color: #7FFFD4;
+  color: black;
+}
+
+.row-width {
+  /*width: 0%;*/
 }

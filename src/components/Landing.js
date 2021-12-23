@@ -1,33 +1,31 @@
 import {Container, Image, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import React from "react";
-import Tunnal from "./tunnal.mov";
+import unplug from "./unplug.mp4";
 import "../App.css"
 
 const Landing = () => {
   return(
     <div className="landing">
 
-      <Container>
-        <video id="background-video" autoPlay loop muted>
-          <source src={Tunnal} type="video/mp4"></source>
-        </video>
-      </Container>
+      <video id="background-video" autoPlay loop muted>
+        <source src={unplug} type="video/mp4" />
+      </video>
 
-
-      <Container className="logo-img">
-        <Link to="/">
-          <Image
-            src="/images/LOGO.png"
-            className="logo-image"
-            alt="custom-logo"
-            fluid
-          />
-        </Link>
-      </Container>
+      {/*<Container className="logo-img">*/}
+      {/*  */}
+      <Link to="/">
+        <Image
+          src="/images/LOGO.png"
+          className="logo-image"
+          alt="custom-logo"
+          fluid
+        />
+      </Link>
+      {/*</Container>*/}
 
       <Container className="home-nav-links">
-        <Row>
+        <Row className="row-width">
           <Link
             to="/projects"
             className="text-style"
