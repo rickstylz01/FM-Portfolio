@@ -16,7 +16,7 @@ function App() {
       title: "Tour-Info Project",
       role: "Back-End Developer",
       brief: "Collaborated with a team of back-end developers to create a tour information/booking application complete with user registration, email verification, and tour booking features",
-      techStack: "Nodejs, MongoDB/Mongoose, EJS, Bcrypt, JWT, Javascript, Git/Github",
+      techStack: ["Nodejs", "MongoDB/Mongoose", "EJS", "Bcrypt", "JWT", "Javascript", "Git/Github"],
       projectLink: {
         to: "https://github.com/reskillamericans/Tour-Info-Group-Node",
         text: "Touryst Github"
@@ -28,7 +28,7 @@ function App() {
       title: "Todo Application",
       role: "Software Engineer",
       brief: "This is a simple to-do application that let's you create, edit, delete, and mark task's as complete.",
-      techStack: "Nodejs, Reactjs, MongoDB/Mongoose",
+      techStack: ["NodejsJ", "Reactjs", "MongoDB/Mongoose"],
       projectLink: {
         to: "https://github.com/rickstylz01/soloNodeTodo",
         text: "Todo App Github"
@@ -41,7 +41,7 @@ function App() {
       role: "Software Engineer",
 
       brief: "An Instagram clone application. Complete with a functional searchbar and modal pop ups for a closer look at images.",
-      techStack: "JavaScript, Reactjs, Bootstrap",
+      techStack: ["JavaScript", "Reactjs", "Bootstrap"],
       projectLink: {
         to: "https://github.com/rickstylz01/Rickstagram",
         text: "Rickstagram Github"
@@ -53,7 +53,7 @@ function App() {
       title: "Hidden Gems",
       role: "Software Engineer",
       brief: "Using Reactjs, Bootstrap and Google's location beta api, I created an app that will locate registered restaurants and cafes in your immediate area within a 10 mile radius.",
-      techStack: "Reactjs, GoogleAPI, Bootstrap",
+      techStack: ["Reactjs","GoogleAPI", "Bootstrap"],
       projectLink: {
         to: "https://github.com/rickstylz01/-hidden-gemz",
         text: "Hidden Gems Github"

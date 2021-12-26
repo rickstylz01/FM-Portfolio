@@ -24,7 +24,7 @@ const ProjectDetails = () => {
 
       <Container>
         <Row>
-          <Col>
+          <Col className="mt-5">
             <h2>Description</h2>
           </Col>
         </Row>
@@ -50,20 +50,28 @@ const ProjectDetails = () => {
             <h2>Stack</h2>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <p>{project.techStack}</p>
-          </Col>
-        </Row>
-
-        <Row>
+        {
+          project.techStack.map((tech, index) =>
+            <Row>
+              <Col>
+                <ul>
+                  <li key={index}>{tech}</li>
+                </ul>
+              </Col>
+            </Row>
+          )
+        }
+        <Row className="mt-4">
           <Col>
             <h2>Link</h2>
           </Col>
         </Row>
         <Row>
           <Col>
-            <a href={project.projectLink.to}>
+            <a
+              href={project.projectLink.to}
+              target="_blank" rel="noreferrer"
+            >
               {project.projectLink.text}
             </a>
           </Col>
