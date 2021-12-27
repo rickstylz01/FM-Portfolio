@@ -1,4 +1,5 @@
 import {Container, Image, Row} from "react-bootstrap";
+import {Fade} from "react-reveal";
 import {Link} from "react-router-dom";
 import React from "react";
 import unplug from "./unplug.mp4";
@@ -26,18 +27,24 @@ const Landing = () => {
 
       <Container className="home-nav-links">
         <Row className="row-width">
-          <Link
-            to="/projects"
-            className="text-style"
-          >Projects</Link>
-          <Link
-            to="/about"
-            className="text-style"
-          >About Me</Link>
-          <Link
-            to="/blog"
-            className="text-style"
-          >Blog</Link>
+          <Fade left>
+            <Link
+              to="/projects"
+              className="text-style"
+            >Projects</Link>
+          </Fade>
+          <Fade right>
+            <Link
+              to="/about"
+              className="text-style"
+            >About Me</Link>
+          </Fade>
+          <Fade bottom>
+            <Link
+              to="/blog"
+              className="text-style"
+            >Blog</Link>
+          </Fade>
         </Row>
       </Container>
     </div>

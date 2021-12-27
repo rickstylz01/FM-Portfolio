@@ -9,11 +9,12 @@ const ProjectList = ({projectInfo}) => {
     <div>
       <Navigation />
 
-      <Fade left>
-        {
-          projectInfo.map((project, index) => <Thumbnail key={index} project={project} />)
-        }
-      </Fade>
+        <Fade left>
+          {
+            projectInfo.map((project, index) => <Thumbnail key={index} project={project} />)
+          }
+        </Fade>
+
       <Footer />
     </div>
   )
