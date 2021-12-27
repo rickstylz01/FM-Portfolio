@@ -9,7 +9,7 @@ const ProjectList = ({projectInfo}) => {
     <div>
       <Navigation />
 
-        <Fade left>
+        <Fade bottom>
           {
             projectInfo.map((project, index) => <Thumbnail key={index} project={project} />)
           }

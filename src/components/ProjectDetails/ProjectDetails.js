@@ -15,7 +15,7 @@ const ProjectDetails = () => {
     <div className="Touryst">
       <Navigation />
 
-      <Fade left>
+      <Fade top>
         <h1 className="textStyle">{project.title}</h1>
 
         <Image

@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {Container, Fade, Image} from "react-bootstrap";
+import {Container, Image} from "react-bootstrap";
 import'./Thumbnail.css';
 
 const Thumbnail = ({ project }) => {

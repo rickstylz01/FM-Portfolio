@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Landing from "./components/Landing";
 import ProjectList from "./components/ProjectList";
 import Blog from "./components/Blog";
-import About from "./components/About";
+import About from "./components/About/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
