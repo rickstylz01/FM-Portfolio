@@ -33,7 +33,7 @@ const Landing = () => {
           <Link
             to="/about"
             className="text-style"
-          >About</Link>
+          >About Me</Link>
           <Link
             to="/blog"
             className="text-style"
