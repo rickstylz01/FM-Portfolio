@@ -20,11 +20,18 @@ const About = (props) => {
             />
           </Col>
 
-          <Col>
+          <Col className="paragraphOne">
+            <h2>
+              Hi, welcome to my page!
+            </h2>
             <p>
-              Hello and welcome to my page!
-              <br />
-              Me llamo Rick.
+              Me <i>llamó</i> Rick.
+            </p>
+            <p>
+              I am a first-generation Salvadoran/Mexican-American.
+            </p>
+            <p>
+              I began teaching myself
             </p>
           </Col>
         </Row>

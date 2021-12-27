@@ -13,8 +13,6 @@ const Landing = () => {
         <source src={unplug} type="video/mp4" />
       </video>
 
-      {/*<Container className="logo-img">*/}
-      {/*  */}
       <Link to="/">
         <Image
           src="/images/LOGO.png"
@@ -23,7 +21,6 @@ const Landing = () => {
           fluid
         />
       </Link>
-      {/*</Container>*/}
 
       <Container className="home-nav-links">
         <Row className="row-width">
