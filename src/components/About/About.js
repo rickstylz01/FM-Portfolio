@@ -1,41 +1,47 @@
 import React from "react";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
+import Fade from "react-reveal";
 import {Col, Container, Image, Row} from "react-bootstrap";
 import "./About.css";
 
-const About = (props) => {
+const About = () => {
   return(
-    <div>
+    <div className="AboutMe">
       <Navigation />
-      <h1>About Me</h1>
 
-      <Container className="introduction">
-        <Row>
-          <Col>
+      <Fade>
+        <h1 className="pt-5">About Me</h1>
+      </Fade>
+
+      <Fade>
+        <Container className="intro-image">
             <Image
               src="../../images/lookinOut.jpg"
               alt="standing on a mountain looking out"
               fluid
             />
-          </Col>
+        </Container>
+      </Fade>
 
-          <Col className="paragraphOne">
-            <h2>
-              Hi, welcome to my page!
-            </h2>
-            <p>
-              Me <i>llamó</i> Rick.
-            </p>
-            <p>
-              I am a first-generation Salvadoran/Mexican-American.
-            </p>
-            <p>
-              I began teaching myself
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <Fade left>
+        <Container className="aboutMe-container">
+            <Col className="paragraphOne square border border-warning rounded border-2">
+              <Fade>
+                <h2>
+                  Hola, my name is Rick.
+                </h2>
+                <p className="journey-paragraph">
+                  I enjoy working on creative projects that are both functionally and esthetically notable. My journey to becoming a full-stack developer began with self-taught lessons and resources. I am a graduate of the  "Grow with Google" Scholarship program, where I was taught the fundamentals of front-end web development.  I recently completed a back-end software engineer training program with an organization called Reskill Americans.
+                  <br/>
+                  <br/>
+                  Thanks to RA, I gained the experience of working in a real-world project scenario with a diverse team of other developers to create full-stack applications.
+                </p>
+              </Fade>
+            </Col>
+        </Container>
+      </Fade>
+
 
       <Container className="achievements">
         <Row>

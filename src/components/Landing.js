@@ -2,7 +2,7 @@ import {Container, Image, Row} from "react-bootstrap";
 import {Fade} from "react-reveal";
 import {Link} from "react-router-dom";
 import React from "react";
-import unplug from "./unplug.mp4";
+import unplug from "../assets/unplug.mp4";
 import "../App.css"
 
 const Landing = () => {
