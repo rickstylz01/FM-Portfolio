@@ -25,50 +25,34 @@ const ProjectDetails = () => {
         />
 
         <Container>
-          <Row>
-            <h2 className="mt-5">Description</h2>
-          </Row>
-          <Row>
-            <p>{project.brief}</p>
-          </Row>
+          <h2 className="mt-5">Description</h2>
+          <p>{project.brief}</p>
         </Container>
 
         <Container>
-          <Row>
-            <h2>Role</h2>
-          </Row>
-          <Row>
-            <p>{project.role}</p>
-          </Row>
+          <h2>Role</h2>
+          <p>{project.role}</p>
         </Container>
 
         <Container>
-          <Row>
-            <h2>Stack</h2>
-          </Row>
+          <h2>Stack</h2>
           {
             project.techStack.map((tech, index) =>
-              <Row>
-                <ul>
-                  <li key={index}>{tech}</li>
-                </ul>
-              </Row>
+              <ul>
+                <li key={index}>{tech}</li>
+              </ul>
             )
           }
         </Container>
 
         <Container>
-          <Row className="mt-4">
-            <h2>Link</h2>
-          </Row>
-          <Row>
+            <h2 className="mt-4">Link</h2>
             <a
               href={project.projectLink.to}
               target="_blank" rel="noreferrer"
             >
               {project.projectLink.text}
             </a>
-          </Row>
         </Container>
       </Fade>
 
