@@ -26,44 +26,32 @@ const ProjectDetails = () => {
 
         <Container>
           <Row>
-            <Col className="mt-5">
-              <h2>Description</h2>
-            </Col>
+            <h2 className="mt-5">Description</h2>
           </Row>
           <Row>
-            <Col>
-              <p>{project.brief}</p>
-            </Col>
+            <p>{project.brief}</p>
           </Row>
         </Container>
 
         <Container>
           <Row>
-            <Col>
-              <h2>Role</h2>
-            </Col>
+            <h2>Role</h2>
           </Row>
           <Row>
-            <Col>
-              <p>{project.role}</p>
-            </Col>
+            <p>{project.role}</p>
           </Row>
         </Container>
 
         <Container>
           <Row>
-            <Col>
-              <h2>Stack</h2>
-            </Col>
+            <h2>Stack</h2>
           </Row>
           {
             project.techStack.map((tech, index) =>
               <Row>
-                <Col>
-                  <ul>
-                    <li key={index}>{tech}</li>
-                  </ul>
-                </Col>
+                <ul>
+                  <li key={index}>{tech}</li>
+                </ul>
               </Row>
             )
           }
@@ -71,19 +59,15 @@ const ProjectDetails = () => {
 
         <Container>
           <Row className="mt-4">
-            <Col>
-              <h2>Link</h2>
-            </Col>
+            <h2>Link</h2>
           </Row>
           <Row>
-            <Col>
-              <a
-                href={project.projectLink.to}
-                target="_blank" rel="noreferrer"
-              >
-                {project.projectLink.text}
-              </a>
-            </Col>
+            <a
+              href={project.projectLink.to}
+              target="_blank" rel="noreferrer"
+            >
+              {project.projectLink.text}
+            </a>
           </Row>
         </Container>
       </Fade>

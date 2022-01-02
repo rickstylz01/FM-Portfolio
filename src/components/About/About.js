@@ -15,18 +15,18 @@ const About = () => {
       </Fade>
 
       <Fade>
-        <Container className="intro-image">
+        <div className="background-image">
             <Image
-              src="../../images/lookinOut.jpg"
+              src="../../images/staring-out.jpeg"
               alt="standing on a mountain looking out"
               fluid
             />
-        </Container>
+        </div>
       </Fade>
 
       <Fade left>
-        <Container className="aboutMe-container">
-            <Col className="paragraphOne square border border-warning rounded border-2">
+        <div className="aboutMe-container">
+            <Col className="paragraph-one square border border-warning rounded border-2">
               <Fade>
                 <h2>
                   Hola, my name is Rick.
@@ -39,7 +39,7 @@ const About = () => {
                 </p>
               </Fade>
             </Col>
-        </Container>
+        </div>
       </Fade>
 
 
