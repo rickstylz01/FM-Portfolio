@@ -1,9 +1,9 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Landing from "./components/Landing";
-import ProjectList from "./components/ProjectList";
+import Landing from "./components/Landing/Landing";
+import ProjectList from "./components/ProjectList/ProjectList";
 import Blog from "./components/Blog";
-import About from "./components/About";
+import AboutMe from "./components/AboutMe/AboutMe";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
@@ -68,7 +68,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route path="/projects" element={<ProjectList  projectInfo={PROJECTINFO}/>} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutMe />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects/:title" element={<ProjectDetails />}
           />

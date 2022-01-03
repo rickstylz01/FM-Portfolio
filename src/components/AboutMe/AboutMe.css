@@ -1,0 +1,45 @@
+h1 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.paragraph-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.achievements {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.google-scholarship {
+  padding-bottom: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/*--Desktop Layout--*/
+@media all and (min-width: 700px) {
+  .introduction {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .achievements {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .intro-paragraph {
+    padding: 40px 40px 0px 40px;
+    text-align: left;
+  }
+
+}
