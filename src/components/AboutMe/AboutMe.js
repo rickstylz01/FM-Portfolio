@@ -63,11 +63,12 @@ const AboutMe = () => {
             </Fade>
           </Col>
         </div>
+      </Fade>
 
         {/*--Hobbies--*/}
-
-
-      </Fade>
+        <div id="hobbies">
+          <h2 className="center-text">Hobbies</h2>
+        </div>
 
       <Footer />
     </div>
