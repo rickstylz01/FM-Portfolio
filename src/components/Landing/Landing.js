@@ -2,8 +2,8 @@ import {Container, Image, Row} from "react-bootstrap";
 import {Fade} from "react-reveal";
 import {Link} from "react-router-dom";
 import React from "react";
-import unplug from "../assets/unplug.mp4";
-import "../App.css"
+import unplug from "../../assets/unplug.mp4";
+import "./Landing.css"
 
 const Landing = () => {
   return(
@@ -28,19 +28,25 @@ const Landing = () => {
             <Link
               to="/projects"
               className="text-style"
-            >Projects</Link>
+            >
+              Projects
+            </Link>
           </Fade>
           <Fade right>
             <Link
               to="/about"
               className="text-style"
-            >About Me</Link>
+            >
+              About Me
+            </Link>
           </Fade>
           <Fade bottom>
             <Link
               to="/blog"
               className="text-style"
-            >Blog</Link>
+            >
+              Blog
+            </Link>
           </Fade>
         </Row>
       </Container>

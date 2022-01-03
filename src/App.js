@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Landing from "./components/Landing";
-import ProjectList from "./components/ProjectList";
+import Landing from "./components/Landing/Landing";
+import ProjectList from "./components/ProjectList/ProjectList";
 import Blog from "./components/Blog";
 import AboutMe from "./components/AboutMe/AboutMe";
 import 'bootstrap/dist/css/bootstrap.min.css';

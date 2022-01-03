@@ -5,8 +5,11 @@
 .achievements {
   background-color: black;
   color: white;
+  width: 100%;
 }
 
-.ra-scholarship {
-  padding-bottom: 5px;
+.google-scholarship {
+  padding-bottom: 10px;
 }
+
+
