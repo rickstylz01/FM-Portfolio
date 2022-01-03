@@ -6,14 +6,16 @@ import {Fade} from "react-reveal";
 
 const ProjectList = ({projectInfo}) => {
   return (
-    <div className="projectList">
+    <div>
       <Navigation />
 
-        <Fade bottom>
+      <Fade bottom>
+        <div className="projectList">
           {
             projectInfo.map((project, index) => <Thumbnail key={index} project={project} />)
           }
-        </Fade>
+        </div>
+      </Fade>
 
       <Footer />
     </div>
