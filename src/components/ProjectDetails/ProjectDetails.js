@@ -24,17 +24,13 @@ const ProjectDetails = () => {
           fluid
         />
 
-        <Container>
+        <Container className="project-description">
           <h2 className="mt-5">Description</h2>
           <p>{project.brief}</p>
-        </Container>
 
-        <Container>
           <h2>Role</h2>
           <p>{project.role}</p>
-        </Container>
 
-        <Container>
           <h2>Stack</h2>
           {
             project.techStack.map((tech, index) =>
@@ -43,9 +39,7 @@ const ProjectDetails = () => {
               </ul>
             )
           }
-        </Container>
 
-        <Container>
             <h2 className="mt-4">Link</h2>
             <a
               href={project.projectLink.to}
