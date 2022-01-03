@@ -3,9 +3,9 @@ import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import Fade from "react-reveal";
 import {Col, Container, Image, Row} from "react-bootstrap";
-import "./About.css";
+import "./AboutMe.css";
 
-const About = () => {
+const AboutMe = () => {
   return(
     <div className="AboutMe">
       <Navigation />
@@ -27,9 +27,9 @@ const About = () => {
             </Fade>
           </Col>
 
-          <Col className="order-sm-0">
+          <Col className="aboutMe-container order-sm-1">
             <Fade right>
-              <div className="aboutMe-container">
+              <div>
                 <h2>
                   Hola, my name is Rick.
                 </h2>
@@ -45,15 +45,30 @@ const About = () => {
         </Row>
       </Container>
 
+      <Fade bottom>
+        <Container className="achievements">
+          <h2 className="mt-5">ACHIEVEMENTS</h2>
+          <Row className="mt-5">
+            <Col className="google-scholarship">
+              <Image
+                src="../../images/GoogleScholarship.jpg"
+                alt="Grow with Google Certificate"
+                fluid
+                thumbnail
+              />
+            </Col>
+            <Col className="ra-scholarship">
+              <Image
+                src="../../images/RaCertificate.png"
+                alt="Reskill Americans Certificate"
+                fluid
+                thumbnail
+              />
+            </Col>
+          </Row>
+        </Container>
+      </Fade>
 
-
-
-
-      <Container className="achievements">
-        <Row>
-          <Col></Col>
-        </Row>
-      </Container>
 
 
 
@@ -62,4 +77,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default AboutMe;
