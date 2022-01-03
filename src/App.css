@@ -3,10 +3,6 @@
   padding: 50px;
 }
 
-.home-nav-links {
-
-}
-
 .landing {
   position: fixed;
   min-height: 100vh;
@@ -37,8 +33,4 @@
 
 .text-style:hover {
   color: black;
-}
-
-.row-width {
-  /*width: 0%;*/
 }
