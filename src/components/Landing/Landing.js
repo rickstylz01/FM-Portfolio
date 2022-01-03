@@ -13,17 +13,19 @@ const Landing = () => {
         <source src={unplug} type="video/mp4" />
       </video>
 
-      <Link to="/">
-        <Image
-          src="/images/LOGO.png"
-          className="logo-image"
-          alt="custom-logo"
-          fluid
-        />
-      </Link>
+
 
       <Container className="home-nav-links">
-        <Row className="row-width">
+        <Link to="/">
+          <Image
+            src="/images/LOGO.png"
+            className="logo-image"
+            alt="custom-logo"
+            fluid
+          />
+        </Link>
+
+        <Row>
           <Fade left>
             <Link
               to="/projects"

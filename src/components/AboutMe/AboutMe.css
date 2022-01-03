@@ -1,11 +1,21 @@
+.AboutMe {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 80px;
+}
+
 .aboutMe-container {
-  border: 2px chocolate;
+  padding: 0px 40px 0px 40px;
 }
 
 .achievements {
   background-color: black;
   color: white;
   width: 100%;
+  height: auto;
+  padding: 20px;
 }
 
 .google-scholarship {

@@ -3,6 +3,7 @@ import Thumbnail from "../Thumbnail/Thumbnail";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {Fade} from "react-reveal";
+import './ProjectList.css'
 
 const ProjectList = ({projectInfo}) => {
   return (

@@ -3,7 +3,7 @@ import {Fade} from "react-reveal";
 import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
-import {Col, Container, Image, Row} from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import './ProjectDetails.css';
 
 const ProjectDetails = () => {

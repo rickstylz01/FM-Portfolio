@@ -11,12 +11,12 @@ const AboutMe = () => {
       <Navigation />
 
       <Fade>
-        <h1 className="pt-5">About Me</h1>
+        <h1>About Me</h1>
       </Fade>
 
       <Container className="mt-5">
         <Row>
-          <Col className="background-image order-sm-12">
+          <Col className="staring-image order-sm-12">
             <Fade left>
               <Image
                 src="../../images/staring-out.jpeg"
@@ -29,7 +29,6 @@ const AboutMe = () => {
 
           <Col className="aboutMe-container order-sm-1">
             <Fade right>
-              <h2>Hola, my name is Rick.</h2>
               <p className="intro-paragraph">
                 I enjoy working on creative projects that are both functionally and esthetically notable. My journey to becoming a full-stack developer began with self-taught lessons and resources. I am a graduate of the  "Grow with Google" Scholarship program, where I was taught the fundamentals of front-end web development.  I recently completed a back-end software engineer training program with an organization called Reskill Americans.
                 <br/>
@@ -42,8 +41,7 @@ const AboutMe = () => {
       </Container>
 
       <Fade bottom>
-        <Container className="achievements">
-          <h2 className="mt-5">ACHIEVEMENTS</h2>
+        <div className="achievements">
           <Row className="mt-5">
             <Col className="google-scholarship">
               <Image
@@ -62,7 +60,8 @@ const AboutMe = () => {
               />
             </Col>
           </Row>
-        </Container>
+        </div>
+
       </Fade>
 
 
