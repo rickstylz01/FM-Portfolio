@@ -15,11 +15,23 @@ h1 {
   color: white;
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 50px;
+  margin-top: 40px;
 }
 
 .google-scholarship {
   padding-bottom: 10px;
 }
 
+/*--Desktop Layout--*/
+@media all and (min-width: 700px) {
+  .introduction {
+    display: flex;
+    flex-direction: row;
+  }
 
+  .achievements {
+    display: flex;
+    flex-direction: row;
+  }
+}
