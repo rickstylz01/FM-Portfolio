@@ -63,7 +63,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div id="App">
 
         <Routes>
           <Route exact path="/" element={<Landing />} />
