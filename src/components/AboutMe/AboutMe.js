@@ -26,7 +26,7 @@ const AboutMe = () => {
           </Fade>
         </Col>
 
-        <Col className="aboutMe-container order-sm-1">
+        <Col className="paragraph-container order-sm-1">
           <Fade right>
             <p className="intro-paragraph">
               I enjoy working on creative projects that are both functionally and esthetically notable. My journey to becoming a full-stack developer began with self-taught lessons and resources. I am a graduate of the  "Grow with Google" Scholarship program, where I was taught the fundamentals of front-end web development.  I recently completed a back-end software engineer training program with an organization called Reskill Americans.
@@ -38,30 +38,36 @@ const AboutMe = () => {
         </Col>
       </Container>
 
+      {/*--Achievements--*/}
       <Fade bottom>
         <div className="achievements">
-            <Col className="google-scholarship">
+          <Col className="google-scholarship">
+            <Fade bottom>
               <Image
                 src="../../images/GoogleScholarship.jpg"
                 alt="Grow with Google Certificate"
                 fluid
                 thumbnail
               />
-            </Col>
-            <Col className="ra-scholarship">
+            </Fade>
+          </Col>
+
+          <Col className="ra-scholarship">
+            <Fade bottom>
               <Image
                 src="../../images/RaCertificate.png"
                 alt="Reskill Americans Certificate"
                 fluid
                 thumbnail
               />
-            </Col>
+            </Fade>
+          </Col>
         </div>
 
+        {/*--Hobbies--*/}
+
+
       </Fade>
-
-
-
 
       <Footer />
     </div>
