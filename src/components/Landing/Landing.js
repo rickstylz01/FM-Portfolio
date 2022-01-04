@@ -25,7 +25,6 @@ const Landing = () => {
           />
         </Link>
 
-        <Row>
           <Fade left>
             <Link
               to="/projects"
@@ -50,7 +49,6 @@ const Landing = () => {
               Blog
             </Link>
           </Fade>
-        </Row>
       </Container>
     </div>
     )

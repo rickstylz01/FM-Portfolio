@@ -18,14 +18,29 @@
   z-index: -1;
 }
 
+.text-style {
+  text-decoration: none;
+  font-family: "Gill Sans";
+  font-size: larger;
+  color: white;
+}
+
+.text-style:hover {
+  color: #7FFFD4;
+}
+
+.home-nav-links {
+  margin-left: 140px;
+  margin-bottom: 160px;
+}
+
+/*--Desktop--*/
 @media all and (min-width: 700px) {
   .landing {
     position: fixed;
     min-height: 100vh;
     display: flex;
-    align-items: center;
     font-size: calc(10px + 2vmin);
-    text-align: center;
   }
 
   .text-style {
@@ -48,5 +63,10 @@
     object-fit: cover;
     transform: translate(-50%, -50%);
     z-index: -1;
+  }
+
+  .home-nav-links {
+    margin-left: 100px;
+    margin-bottom: 160px;
   }
 }
