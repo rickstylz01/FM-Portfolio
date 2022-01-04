@@ -1,4 +1,4 @@
-.project-description {
+.align-left {
   text-align: center;
   padding-left: 25px;
   padding-right: 25px;
@@ -10,6 +10,16 @@ ul {
   margin-bottom: 0;
 }
 
+.link-deco {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.link-deco:visited {
+  color: chocolate;
+}
+
+/*--Desktop--*/
 @media all and (min-width: 700px) {
   .Touryst {
     padding: 10px 0px 50px 0px;
@@ -19,18 +29,7 @@ ul {
     font-family: "Gill Sans"
   }
 
-  a {
-    text-decoration: none;
-    color: darkslategray;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
-  }
-
-  .project-description {
+  .align-left {
     text-align: left;
   }
 }

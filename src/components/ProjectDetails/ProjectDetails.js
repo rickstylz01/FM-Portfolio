@@ -19,18 +19,23 @@ const ProjectDetails = () => {
         <h1 className="textStyle">{project.title}</h1>
 
         <Image
+          className="mt-4"
           src={project.image}
           alt="project sample"
           fluid
         />
 
-        <Container className="project-description">
+        <Container className="align-left">
           <h2 className="mt-5">Description</h2>
           <p>{project.brief}</p>
+        </Container>
 
+        <Container className="align-left">
           <h2>Role</h2>
           <p>{project.role}</p>
+        </Container>
 
+        <Container className="align-left">
           <h2>Stack</h2>
           {
             project.techStack.map((tech, index) =>
@@ -39,9 +44,12 @@ const ProjectDetails = () => {
               </ul>
             )
           }
+        </Container>
 
+          <Container className="align-left">
             <h2 className="mt-4">Link</h2>
             <a
+              className="link-deco"
               href={project.projectLink.to}
               target="_blank" rel="noreferrer"
             >
