@@ -1,4 +1,4 @@
-import {Container, Image, Row} from "react-bootstrap";
+import {Container, Image} from "react-bootstrap";
 import {Fade} from "react-reveal";
 import {Link} from "react-router-dom";
 import React from "react";
