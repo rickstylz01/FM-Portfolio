@@ -40,8 +40,8 @@ const AboutMe = () => {
 
       {/*--Achievements--*/}
       <Fade bottom>
-        <div className="achievements">
-          <Col className="google-scholarship">
+        <div className="achievements-container mt-5">
+          <Col className="google-scholarship mt-3">
             <Fade bottom>
               <Image
                 src="../../images/GoogleScholarship.jpg"
@@ -52,7 +52,7 @@ const AboutMe = () => {
             </Fade>
           </Col>
 
-          <Col className="ra-scholarship">
+          <Col className="ra-scholarship mt-3">
             <Fade bottom>
               <Image
                 src="../../images/RaCertificate.png"
@@ -65,10 +65,16 @@ const AboutMe = () => {
         </div>
       </Fade>
 
-        {/*--Hobbies--*/}
-        <div id="hobbies">
-          <h2 className="center-text">Hobbies</h2>
-        </div>
+      {/*--Hobbies--*/}
+      <div id="hobbies">
+        <h2 className="center-text mt-4">Hobbies</h2>
+      </div>
+
+      <Container>
+        <p>
+          When I'm not working on projects, I work part time at an after-school non-for-profit program teaching stem classes like LEGO architecture and even an intro to coding class.  Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.
+        </p>
+      </Container>
 
       <Footer />
     </div>

@@ -8,16 +8,13 @@ h1 {
   text-align: center;
 }
 
-.achievements {
+.achievements-container {
+  flex-direction: column;
   background-color: black;
   color: white;
   width: 100%;
   height: auto;
   padding: 50px;
-}
-
-.google-scholarship {
-  padding-bottom: 10px;
 }
 
 .center-text {
@@ -31,15 +28,14 @@ h1 {
     flex-direction: row;
   }
 
-  .achievements {
+  .achievements-container {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
 
   .intro-paragraph {
     padding: 40px 40px 0px 40px;
     text-align: left;
   }
-
 }
