@@ -19,6 +19,7 @@ const ProjectDetails = () => {
         <h1 className="textStyle">{project.title}</h1>
 
         <Image
+          className="mt-4"
           src={project.image}
           alt="project sample"
           fluid
