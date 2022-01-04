@@ -19,6 +19,7 @@ ul {
   color: chocolate;
 }
 
+/*--Desktop--*/
 @media all and (min-width: 700px) {
   .Touryst {
     padding: 10px 0px 50px 0px;
@@ -26,12 +27,6 @@ ul {
 
   .textStyle {
     font-family: "Gill Sans"
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
   }
 
   .align-left {
