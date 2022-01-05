@@ -80,7 +80,7 @@ const AboutMe = () => {
                 When I'm not working on projects, I work part time at an after-school non-for-profit program teaching STEM classes like LEGO architecture or even an intro to coding class.
                 <br/>
                 <br/>
-                Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.
+                Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.  Oh yea! I also try to stay in shape by doing some break dancing.
               </p>
             </Col>
             <Col>
