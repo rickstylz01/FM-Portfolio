@@ -73,7 +73,7 @@ const AboutMe = () => {
       </div>
 
       <Fade bottom>
-        <Container className="mt-5">
+        <Container className="mt-4">
           <div className="flex-display">
             <Col>
               <p className="paragraph-padding text-x-lrg">
