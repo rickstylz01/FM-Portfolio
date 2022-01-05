@@ -23,7 +23,7 @@ h1 {
 
 /*--Desktop Layout--*/
 @media all and (min-width: 700px) {
-  .introduction {
+  .flex-display {
     display: flex;
     flex-direction: row;
   }
@@ -41,5 +41,13 @@ h1 {
   .google-scholarship {
     height: 608px;
     width: 740px;
+  }
+
+  .text-x-lrg {
+    font-size: x-large;
+  }
+
+  .text-lrg {
+    font-size: larger;
   }
 }
