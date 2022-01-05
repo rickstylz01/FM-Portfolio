@@ -31,11 +31,15 @@ h1 {
   .achievements-container {
     display: flex;
     flex-direction: row;
-    /*margin-top: 40px;*/
   }
 
   .intro-paragraph {
     padding: 40px 40px 0px 40px;
     text-align: left;
+  }
+
+  .google-scholarship {
+    height: 608px;
+    width: 740px;
   }
 }

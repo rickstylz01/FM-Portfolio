@@ -41,9 +41,10 @@ const AboutMe = () => {
       {/*--Achievements--*/}
       <Fade bottom>
         <div className="achievements-container mt-5">
-          <Col className="google-scholarship mt-3">
+          <Col className="mt-3">
             <Fade bottom>
               <Image
+                className="google-scholarship"
                 src="../../images/GoogleScholarship.jpg"
                 alt="Grow with Google Certificate"
                 fluid
