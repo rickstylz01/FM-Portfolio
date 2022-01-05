@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Fade from "react-reveal";
 import {Col, Container, Image} from "react-bootstrap";
 import "./AboutMe.css";
+import Form from "../Form/Form";
 
 const AboutMe = () => {
   return(
@@ -95,6 +96,8 @@ const AboutMe = () => {
           </div>
         </Container>
       </Fade>
+
+      <Form />
       <Footer />
     </div>
   )
