@@ -28,7 +28,7 @@ const AboutMe = () => {
 
         <Col className="paragraph-container order-sm-1">
           <Fade right>
-            <p className="intro-paragraph">
+            <p className="paragraph-padding">
               I enjoy working on creative projects that are both functionally and esthetically notable. My journey to becoming a full-stack developer began with self-taught lessons and resources. I am a graduate of the  "Grow with Google" Scholarship program, where I was taught the fundamentals of front-end web development.  I recently completed a back-end software engineer training program with an organization called Reskill Americans.
               <br/>
               <br/>
