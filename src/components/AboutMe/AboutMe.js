@@ -72,12 +72,12 @@ const AboutMe = () => {
         <h2 className="center-text mt-4">Hobbies</h2>
       </div>
 
-      <Fade bottom>
-        <Container className="mt-4">
+      <Fade>
+        <Container className="mt-4 btm-margin">
           <div className="flex-display">
             <Col>
               <p className="paragraph-padding text-x-lrg">
-                When I'm not working on projects, I work part time at an after-school non-for-profit program teaching stem classes like LEGO architecture or even an intro to coding class.
+                When I'm not working on projects, I work part time at an after-school non-for-profit program teaching STEM classes like LEGO architecture or even an intro to coding class.
                 <br/>
                 <br/>
                 Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.

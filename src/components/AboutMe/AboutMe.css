@@ -50,4 +50,8 @@ h1 {
   .text-lrg {
     font-size: larger;
   }
+
+  .btm-margin {
+    margin-bottom: 40px;
+  }
 }
