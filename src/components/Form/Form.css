@@ -1,4 +1,11 @@
 /*--Contact Form Design--*/
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: chocolate;
+}
+
 form {
   padding: 20px;
   width: 300px;
@@ -16,6 +23,12 @@ form textarea {
 
 form textarea {
   height: 160px;
+}
+
+.heading {
+  /*margin-left: 20px;*/
+  justify-content: center;
+  display: flex;
 }
 
 /*--Button--*/
@@ -36,9 +49,10 @@ form button:visited {
   background-color: chocolate;
 }
 
+/*--Desktop Styles--*/
 @media all and (min-width: 700px) {
   form {
     padding: 20px;
-    width: 600px;
+    width: 100%;
   }
 }
