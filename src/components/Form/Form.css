@@ -59,10 +59,20 @@ form button:visited {
 @media all and (min-width: 700px) {
   .form-container {
     display: flex;
-    padding: 0px 60px 0px 60px;
+    padding: 0px 160px 0px 160px;
   }
 
   .google-map {
     width: 600px;
-    height: 450px;}
+    height: 400px;
+  }
+
+  .map {
+    display: flex;
+    padding: 20px;
+  }
+
+  .rt-padding {
+    padding-right: 50px;
+  }
 }
