@@ -5,7 +5,7 @@ import'./Thumbnail.css';
 
 const Thumbnail = ({ project }) => {
   return (
-    <div className="Thumbnail">
+    <div className="Thumbnail mt-5">
       <Link
         to={project.link}
         state={{ project: project }}
