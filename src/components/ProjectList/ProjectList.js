@@ -8,7 +8,7 @@ import Contact from "../Contact/Contact";
 
 const ProjectList = ({projectInfo}) => {
   return (
-    <div id="projectList-container">
+    <div>
       <Navigation />
 
       <Fade bottom>

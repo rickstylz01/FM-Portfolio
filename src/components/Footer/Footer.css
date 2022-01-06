@@ -1,28 +1,11 @@
-.container-style {
-  background-color: #282c34;
-  width: 100%;
-}
-
-.phantomStyle {
-  display: block;
-  padding: 0;
-  height: 40px;
-  width: 100%;
-}
-
-.footerStyle {
-  background-color: #282c34;
-  font-size: 20px;
-  color: white;
-  border-top: 1px solid #E7E7E7;
-  text-align: center;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   padding: 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 80px;
-  width: 100%;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  background-color: #282c34;
+}
+
+.lft-margin {
+  margin-left: 5px;
 }

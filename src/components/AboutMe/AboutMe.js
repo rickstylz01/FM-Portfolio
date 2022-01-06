@@ -8,7 +8,7 @@ import Contact from "../Contact/Contact";
 
 const AboutMe = () => {
   return(
-    <div id="introduction">
+    <div>
       <Navigation />
 
       {/*--Introduction--*/}
@@ -79,7 +79,7 @@ const AboutMe = () => {
         <h2 className="center-text mt-4">Hobbies</h2>
 
         <Fade>
-          <Container className="mt-2 btm-margin">
+          <Container className="mt-4 btm-margin">
             <div className="row-display">
               <Col className="paragraph-container">
                 <p className="text-x-lrg">
