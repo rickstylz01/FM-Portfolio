@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
 import { Container, Image } from "react-bootstrap";
 import './ProjectDetails.css';
+import Contact from "../Contact/Contact";
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -12,11 +13,11 @@ const ProjectDetails = () => {
   console.log(project.projectLink);
 
   return (
-    <div className="Touryst">
+    <div className="touryst">
       <Navigation />
 
       <Fade top>
-        <h1 className="textStyle">{project.title}</h1>
+        <h1 className="textStyle center-txt mt-4">{project.title}</h1>
 
         <Image
           className="mt-4"
@@ -58,6 +59,7 @@ const ProjectDetails = () => {
         </Container>
       </Fade>
 
+      <Contact />
       <Footer />
     </div>
   );

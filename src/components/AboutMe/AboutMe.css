@@ -1,11 +1,14 @@
-h1 {
-  padding-top: 80px;
-  text-align: center;
+#introduction {
+  margin-bottom: 40px;
+}
+
+.intro-container {
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .paragraph-container {
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
 }
 
 .achievements-container {
@@ -23,9 +26,14 @@ h1 {
 
 /*--Desktop Layout--*/
 @media all and (min-width: 700px) {
-  .flex-display {
+  .row-display {
     display: flex;
     flex-direction: row;
+  }
+
+  .abt-me-items {
+    margin: 20px 150px 20px 150px;
+    height: 525px;
   }
 
   .achievements-container {
@@ -33,14 +41,23 @@ h1 {
     flex-direction: row;
   }
 
-  .paragraph-padding {
-    padding: 40px 40px 0px 40px;
-    text-align: left;
+  /*--Certificates--*/
+  .google-scholarship {
+    height: 475px;
+    width: 683px;
   }
 
-  .google-scholarship {
-    height: 608px;
-    width: 740px;
+  .google-scholarship-container {
+    padding-left: 15px;
+  }
+
+  .ra-scholarship {
+    height: 475px;
+    width: 683px;
+  }
+
+  .ra-scholarship-container {
+    padding-left: 155px;
   }
 
   .text-x-lrg {
@@ -53,5 +70,19 @@ h1 {
 
   .btm-margin {
     margin-bottom: 40px;
+  }
+
+  .staring-image {
+    height: 475px;
+    width: 683px;
+  }
+
+  .paragraph-container {
+    margin-left: 67px;
+    padding-top: 75px;
+  }
+
+  .intro-container {
+    margin-bottom: 0;
   }
 }
