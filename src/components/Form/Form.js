@@ -8,7 +8,7 @@ const Form = () => {
         <h2 className="heading mt-4">Reach out!</h2>
       </div>
 
-      <div>
+      <div className="form-container">
         <form action="https://formspree.io/f/mvolgdao" method="POST">
           <label className="lbl-name" htmlFor="user-name">Name:</label>
           <input type="text" id="user-name" name="name" placeholder="full name" required/>
@@ -20,6 +20,14 @@ const Form = () => {
           <textarea id="user-message" name="message" placeholder="message" required></textarea>
           <button type="submit">Submit</button>
         </form>
+
+        <div className="map">
+          <iframe
+            className="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.7159859942!2d-88.01214778988322!3d41.83339250495681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1598056524598!5m2!1sen!2sus"
+          >
+          </iframe>
+        </div>
       </div>
     </div>
   );

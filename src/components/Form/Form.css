@@ -4,11 +4,12 @@
   justify-content: center;
   flex-direction: column;
   background-color: chocolate;
+  margin-top: 40px;
 }
 
 form {
   padding: 20px;
-  width: 300px;
+  width: 100%;
 }
 
 form label {
@@ -26,33 +27,42 @@ form textarea {
 }
 
 .heading {
-  /*margin-left: 20px;*/
   justify-content: center;
   display: flex;
+}
+
+/*--Google Map Styles--*/
+.map {
+  display: none;
 }
 
 /*--Button--*/
 form button {
   padding: 10px 16px;
-  background-color: chocolate;
+  background-color: black;
   border-radius: 5px;
   border: 0;
   font-size: 16px;
+  color: white;
 }
 
 form button:hover {
   color: white;
-  background-color: black;
+  background-color: #7FFFD4;
 }
 
 form button:visited {
-  background-color: chocolate;
+  background-color: black;
 }
 
 /*--Desktop Styles--*/
 @media all and (min-width: 700px) {
-  form {
-    padding: 20px;
-    width: 100%;
+  .form-container {
+    display: flex;
+    padding: 0px 60px 0px 60px;
   }
+
+  .google-map {
+    width: 600px;
+    height: 450px;}
 }

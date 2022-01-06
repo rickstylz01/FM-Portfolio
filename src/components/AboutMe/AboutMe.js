@@ -16,7 +16,7 @@ const AboutMe = () => {
         <h1>About Me</h1>
       </Fade>
 
-      <Container className="flex-display mt-5">
+      <Container className="flex-display mt-4">
         <Col className="staring-image order-sm-12">
           <Fade left>
             <Image
@@ -28,9 +28,9 @@ const AboutMe = () => {
           </Fade>
         </Col>
 
-        <Col className="paragraph-container order-sm-1">
+        <Col className="paragraph-container order-sm-1 mt-2">
           <Fade right>
-            <p className="paragraph-padding text-lrg">
+            <p className="text-lrg">
               I enjoy working on creative projects that are both functionally and esthetically notable. My journey to becoming a full-stack developer began with self-taught lessons and resources. I am a graduate of the  "Grow with Google" Scholarship program, where I was taught the fundamentals of front-end web development.  I recently completed a back-end software engineer training program with an organization called Reskill Americans.
               <br/>
               <br/>
@@ -42,7 +42,7 @@ const AboutMe = () => {
 
       {/*--Achievements--*/}
       <Fade bottom>
-        <div className="achievements-container mt-5">
+        <div className="achievements-container mt-2">
           <Col className="mt-3">
             <Fade bottom>
               <Image
@@ -71,31 +71,32 @@ const AboutMe = () => {
       {/*--Hobbies--*/}
       <div id="hobbies">
         <h2 className="center-text mt-4">Hobbies</h2>
-      </div>
 
-      <Fade>
-        <Container className="mt-4 btm-margin">
-          <div className="flex-display">
-            <Col>
-              <p className="paragraph-padding text-x-lrg">
-                When I'm not working on projects, I work part time at an after-school non-for-profit program teaching STEM classes like LEGO architecture or even an intro to coding class.
-                <br/>
-                <br/>
-                Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.  Oh yea! I also try to stay in shape by doing some break dancing.
-              </p>
-            </Col>
-            <Col>
-              <Image
-                className="bboy-freeze"
-                src="../../images/bboy.JPG"
-                alt="breakdancing freeze"
-                fluid
-                thumbnail
-              />
-            </Col>
-          </div>
-        </Container>
-      </Fade>
+        <Fade>
+          <Container className="mt-2 btm-margin">
+            <div className="flex-display">
+              <Col className="paragraph-container">
+                <p className="text-x-lrg">
+                  When I'm not working on projects, I work part time at an after-school non-for-profit program teaching STEM classes like LEGO architecture or even an intro to coding class.
+                  <br/>
+                  <br/>
+                  Otherwise I'm probably looking for a new hiking trail, or a new restaurant to try out.  I try to keep it balanced.  Oh yea! I also try to stay in shape by doing some break dancing.
+                </p>
+              </Col>
+
+              <Col>
+                <Image
+                  className="bboy-freeze"
+                  src="../../images/bboy.JPG"
+                  alt="breakdancing freeze"
+                  fluid
+                  thumbnail
+                />
+              </Col>
+            </div>
+          </Container>
+        </Fade>
+      </div>
 
       <Form />
       <Footer />
