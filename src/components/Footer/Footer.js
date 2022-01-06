@@ -1,15 +1,15 @@
 import React from "react";
 import {SocialIcon} from "react-social-icons";
 import './Footer.css';
-import '../../App.css';
 import {Fade} from "react-reveal";
 
 const Footer = () => {
   return (
-    <div id="footer" className="phantomStyle">
-      <div className="footerStyle">
+    <div id="footer">
+      <footer>
         <Fade right>
           <SocialIcon
+            className="lft-margin"
             url="https://www.linkedin.com/in/rickmaya/"
             bgColor="#5F9EA0"
             style={{
@@ -18,6 +18,7 @@ const Footer = () => {
             }}
           />
           <SocialIcon
+            className="lft-margin"
             url="https://github.com/rickstylz01"
             bgColor="#5F9EA0"
             style={{
@@ -26,6 +27,7 @@ const Footer = () => {
             }}
           />
           <SocialIcon
+            className="lft-margin"
             url="https://twitter.com/waves_ride"
             bgColor="#5F9EA0"
             style={{
@@ -34,7 +36,7 @@ const Footer = () => {
             }}
           />
         </Fade>
-      </div>
+      </footer>
     </div>
   )
 }
