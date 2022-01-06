@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
 import { Container, Image } from "react-bootstrap";
 import './ProjectDetails.css';
+import Form from "../Form/Form";
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -58,6 +59,7 @@ const ProjectDetails = () => {
         </Container>
       </Fade>
 
+      <Form />
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import Navigation from "../Navigation";
 import Footer from "../Footer/Footer";
 import {Fade} from "react-reveal";
 import './ProjectList.css'
+import Form from "../Form/Form";
 
 const ProjectList = ({projectInfo}) => {
   return (
@@ -18,6 +19,7 @@ const ProjectList = ({projectInfo}) => {
         </div>
       </Fade>
 
+      <Form />
       <Footer />
     </div>
   )
