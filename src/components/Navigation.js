@@ -5,7 +5,7 @@ import {Fade} from "react-reveal";
 const Navigation = () => {
   return (
     <Navbar
-      fixed="top"
+      sticky="top"
       bg="dark"
       variant="dark"
       collapseOnSelect

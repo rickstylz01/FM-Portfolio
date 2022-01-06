@@ -1,11 +1,11 @@
 .container-style {
-  background-color: #282c34 !important;
+  background-color: #282c34;
   width: 100%;
 }
 
 .phantomStyle {
-  display:  block;
-  padding: 20px;
+  display: block;
+  padding: 0;
   height: 40px;
   width: 100%;
 }

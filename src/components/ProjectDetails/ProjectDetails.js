@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import {useLocation} from "react-router-dom";
 import { Container, Image } from "react-bootstrap";
 import './ProjectDetails.css';
-import Form from "../Form/Form";
+import Contact from "../Contact/Contact";
 
 const ProjectDetails = () => {
   const location = useLocation();
@@ -13,7 +13,7 @@ const ProjectDetails = () => {
   console.log(project.projectLink);
 
   return (
-    <div className="Touryst">
+    <div className="touryst">
       <Navigation />
 
       <Fade top>
@@ -59,7 +59,7 @@ const ProjectDetails = () => {
         </Container>
       </Fade>
 
-      <Form />
+      <Contact />
       <Footer />
     </div>
   );
