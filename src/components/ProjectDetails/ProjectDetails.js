@@ -17,7 +17,7 @@ const ProjectDetails = () => {
       <Navigation />
 
       <Fade top>
-        <h1 className="textStyle">{project.title}</h1>
+        <h1 className="textStyle center-txt">{project.title}</h1>
 
         <Image
           className="mt-4"

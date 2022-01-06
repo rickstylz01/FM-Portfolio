@@ -47,7 +47,7 @@ form button {
 }
 
 form button:hover {
-  color: white;
+  color: black;
   background-color: #7FFFD4;
 }
 

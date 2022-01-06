@@ -29,6 +29,10 @@ ul {
     font-family: "Gill Sans"
   }
 
+  .center-txt {
+    text-align: center;
+  }
+
   .align-left {
     text-align: left;
   }
