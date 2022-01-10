@@ -33,9 +33,26 @@
   margin-left: 50px;
 }
 
+/*--Mobile-M--*/
+@media all and (min-width: 375px) {
+  .home-nav-links {
+    margin-left: 75px
+  }
+}
+
+/*--Mobile-L--*/
+@media all and (min-width: 425px) {
+  .home-nav-links {
+    margin-left: 100px
+  }
+}
+
+
 /*--Desktop--*/
 @media all and (min-width: 700px) {
   .home-nav-links {
     margin-left: 100px;
   }
 }
+
+
