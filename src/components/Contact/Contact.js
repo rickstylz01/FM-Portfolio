@@ -11,7 +11,7 @@ const Contact = () => {
         </div>
 
         <div className="form-container">
-          <form className="lftRt-padding" action="https://formspree.io/f/mvolgdao" method="POST">
+          <form className="rt-padding" action="https://formspree.io/f/mvolgdao" method="POST">
             <label className="lbl-name" htmlFor="user-name">Name:</label>
             <input type="text" id="user-name" name="name" placeholder="full name" required/>
 
