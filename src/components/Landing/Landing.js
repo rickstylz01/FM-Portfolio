@@ -9,7 +9,7 @@ const Landing = () => {
   return(
     <div className="landing">
 
-      <video id="background-video" autoPlay loop muted>
+      <video id="background-video" autoPlay loop muted playsInline>
         <source src={unplug} type="video/mp4" />
       </video>
 
